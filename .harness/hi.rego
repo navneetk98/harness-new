@@ -1,1 +1,2 @@
-package main-patch-1-patch
+package main
+echo "main-patch-1-patch"
