@@ -1,4 +1,4 @@
-package pipeline_helpers
+  package pipeline_helpers
 
   has_stage_type(stages, stage_type) {
     stages[_].stage.type == stage_type
@@ -11,3 +11,5 @@ package pipeline_helpers
   is_prod_environment(env_type) {
     env_type == "Production"
   }
+
+  required_approvers := 2
