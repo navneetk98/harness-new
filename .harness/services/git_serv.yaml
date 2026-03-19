@@ -1,0 +1,3 @@
+service:
+  name: git_serv
+  identifier: git_serv
