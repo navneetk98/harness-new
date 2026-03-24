@@ -1,0 +1,6 @@
+package accountpolicy_invalid_1223
+
+deny[msg] {
+    input.context.account != "account-level"
+    msg := "Invalid account context"
+}
