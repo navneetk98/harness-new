@@ -1,4 +1,4 @@
-package environment2
+package environment
 
 # Policy to deny access based on environment type and variable description
 # This policy checks if the environment type is "Production" or if any variable's description is not provided (empty string).
