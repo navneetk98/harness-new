@@ -1,7 +1,7 @@
 package pipeline
 
 # Deny pipelines that don't have an approval step
-# NOTE: Try removing the HarnessApproval step from your input to see the policy fail
+# NOTE: Try removing the HarnessApproval step from your input to see the policy fail hihello
 deny[msg] {
 	# Find all stages that are Deployments ...
 	input.pipeline.stages[i].stage.type == "Deployment"
