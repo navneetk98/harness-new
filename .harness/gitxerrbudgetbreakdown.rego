@@ -1,5 +1,5 @@
-package pipeline
-
+package pipeline-2-
+slfkmd
 budget_global = 0 {
     input.pipeline.stages[_].stage.spec.sloPolicy.sloErrorBudgetRemainingPercentage<=0
 } else = input.pipeline.stages[_].stage.spec.sloPolicy.sloErrorBudgetRemainingPercentage
