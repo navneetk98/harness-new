@@ -1,4 +1,4 @@
-package pipeline
+package pipeline2
 
 budget_global = 0 {
     input.pipeline.stages[_].stage.spec.sloPolicy.sloErrorBudgetRemainingPercentage<=0
