@@ -1,1 +1,1 @@
-package inline
+package inline2
