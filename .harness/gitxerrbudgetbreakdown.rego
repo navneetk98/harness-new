@@ -5,7 +5,7 @@ budget_global = 0 {
 } else = input.pipeline.stages[_].stage.spec.sloPolicy.sloErrorBudgetRemainingPercentage
 
 # Deny pipelines that are configured for service name is orderservice_dev and sloErrorBudgetRemainingPercentage is less than 80%.
-# Absence of either of these will not halt the pipeline execution hihihihihihihihi
+# Absence of either of these will not halt the pipeline execution hihihihihihihi
 deny[msg] {
     stage = input.pipeline.stages[_].stage      # Find all stages ...
     stage.type == "Deployment"                  # ... that are deployments
