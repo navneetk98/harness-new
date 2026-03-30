@@ -4,7 +4,7 @@ package environment
 # This policy checks if the environment type is "Production" or if any variable's description is not provided (empty string).
 # If either condition is met, access will be denied with an appropriate error message.
 
-#Try changing the environment type to Production to see the policy fail hellohi
+#Try changing the environment type to Production to see the policy fail hellohihi
 deny[msg] {
   # Check if the environment type is "Production"
   input.environmentEntity.type == "Production"
