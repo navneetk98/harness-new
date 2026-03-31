@@ -1,1 +1,1 @@
-package inline234567
+package inline2345678
